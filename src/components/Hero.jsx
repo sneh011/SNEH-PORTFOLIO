@@ -40,7 +40,7 @@ const Hero = () => {
 
           {/* Title */}
           <h2 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-4 font-medium">
-            B.Tech CSE Student | Aspiring Software Engineer
+            B.Tech CS Student | Aspiring Software Engineer
           </h2>
 
           {/* Subtitle */}
@@ -51,7 +51,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-6 mb-12">
             <div className="bg-white dark:bg-gray-800 px-6 py-3 rounded-lg shadow-md">
-              <div className="text-2xl font-bold text-blue-600">300+</div>
+              <div className="text-2xl font-bold text-blue-600">400+</div>
               <div className="text-sm text-gray-600 dark:text-gray-400">DSA Problems</div>
             </div>
             <div className="bg-white dark:bg-gray-800 px-6 py-3 rounded-lg shadow-md">
@@ -78,7 +78,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://leetcode.com/sneh011"
+              href="https://leetcode.com/u/sneh_2005/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium shadow-lg hover:shadow-xl transition"
@@ -115,7 +115,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/snehkumar"
+              href="https://www.linkedin.com/in/snehkumar2005/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full"

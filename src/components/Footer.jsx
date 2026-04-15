@@ -13,8 +13,8 @@ const Footer = () => {
     ],
     profiles: [
       { name: 'GitHub', href: 'https://github.com/sneh011', icon: <Github size={18} /> },
-      { name: 'LeetCode', href: 'https://leetcode.com/sneh011', icon: <Code2 size={18} /> },
-      { name: 'LinkedIn', href: 'https://linkedin.com/in/snehkumar', icon: <Linkedin size={18} /> },
+      { name: 'LeetCode', href: 'https://leetcode.com/u/sneh_2005/', icon: <Code2 size={18} /> },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/in/snehkumar2005/', icon: <Linkedin size={18} /> },
       { name: 'Email', href: 'mailto:kumarsneh35@gmail.com', icon: <Mail size={18} /> }
     ]
   };
@@ -108,7 +108,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/snehkumar"
+              href="https://www.linkedin.com/in/snehkumar2005/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -124,7 +124,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://leetcode.com/sneh011"
+              href="https://leetcode.com/u/sneh_2005/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"

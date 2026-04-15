@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     if (darkMode) {
@@ -23,7 +23,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'dark' : ''}`}>
+    <div className="min-h-screen transition-colors duration-300">
       <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Hero />

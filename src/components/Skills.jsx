@@ -11,8 +11,18 @@ const Skills = () => {
         { name: "C", level: 85 },
         { name: "C++", level: 85 },
         { name: "Python", level: 80 },
-        { name: "JavaScript", level: 75 },
-        { name: "Java", level: 60 }
+        { name: "JavaScript", level: 75 }
+      ]
+    },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: "Database & Tools",
+      color: "green",
+      skills: [
+        { name: "SQL", level: 75 },
+        { name: "DBMS Concepts", level: 80 },
+        { name: "Git & GitHub", level: 85 },
+        { name: "VS Code", level: 90 }
       ]
     },
     {
@@ -25,18 +35,6 @@ const Skills = () => {
         { name: "Tailwind CSS", level: 80 },
         { name: "React", level: 75 },
         { name: "JavaScript ES6+", level: 75 }
-      ]
-    },
-    {
-      icon: <Database className="w-8 h-8" />,
-      title: "Database & Tools",
-      color: "green",
-      skills: [
-        { name: "SQL", level: 75 },
-        { name: "DBMS Concepts", level: 80 },
-        { name: "Git & GitHub", level: 85 },
-        { name: "VS Code", level: 90 },
-        { name: "Google Maps API", level: 70 }
       ]
     },
     {
@@ -125,7 +123,7 @@ const Skills = () => {
             Also familiar with
           </h4>
           <div className="flex flex-wrap justify-center gap-3">
-            {['REST APIs', 'Responsive Design', 'Linux Basics', 'Problem Solving', 'Team Collaboration', 'Code Review', 'Debugging', 'Version Control'].map((skill, index) => (
+            {['REST APIs', 'Problem Solving', 'Team Collaboration', 'Code Review', 'Debugging'].map((skill, index) => (
               <span
                 key={index}
                 className="px-4 py-2 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-full text-sm font-medium text-gray-700 dark:text-gray-300 hover:border-blue-400 dark:hover:border-blue-600 transition-colors"

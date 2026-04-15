@@ -8,11 +8,11 @@ const Achievements = () => {
       icon: <Code2 className="w-8 h-8" />,
       color: "orange",
       stats: [
-        { label: "Problems Solved", value: "300+", icon: <CheckCircle className="w-5 h-5" /> },
+        { label: "Problems Solved", value: "400+", icon: <CheckCircle className="w-5 h-5" /> },
         { label: "Max Rating", value: "1470", icon: <Trophy className="w-5 h-5" /> },
         { label: "Current Streak", value: "Active", icon: <TrendingUp className="w-5 h-5" /> }
       ],
-      profileLink: "https://leetcode.com/sneh011",
+      profileLink: "https://leetcode.com/u/sneh_2005/",
       description: "Consistent problem solver with focus on Data Structures and Algorithms",
       highlightColor: "from-orange-500 to-yellow-500"
     },
@@ -34,7 +34,7 @@ const Achievements = () => {
   const whyItMatters = [
     {
       title: "Strong Problem-Solving Foundation",
-      description: "300+ solved problems demonstrate ability to break down complex problems, identify patterns, and implement efficient solutions - crucial skills for any software engineering role.",
+      description: "400+ solved problems demonstrate ability to break down complex problems, identify patterns, and implement efficient solutions - crucial skills for any software engineering role.",
       icon: <Trophy className="w-6 h-6" />
     },
     {

@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: "Strong DSA Foundation",
-      description: "Solved 300+ problems across LeetCode and GeeksforGeeks with consistent practice",
+      description: "Solved 400+ problems across LeetCode and GeeksforGeeks with consistent practice",
     },
     {
       icon: <Brain className="w-6 h-6" />,
@@ -63,7 +63,7 @@ const About = () => {
           {/* Right Section */}
           <div>
             <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
-              B.Tech Computer Science Student
+              B.Tech Computer Science (CS) Student
             </h3>
 
             <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">

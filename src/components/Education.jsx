@@ -3,7 +3,7 @@ import { GraduationCap, Calendar, MapPin, BookOpen, Award } from 'lucide-react';
 
 const Education = () => {
   const education = {
-    degree: "Bachelor of Technology in Computer Science",
+    degree: "Bachelor of Technology in Computer Science (CS)",
     institution: "KIET Group of Institutions",
     location: "Ghaziabad, Uttar Pradesh",
     duration: "Oct 2023 – Apr 2027",

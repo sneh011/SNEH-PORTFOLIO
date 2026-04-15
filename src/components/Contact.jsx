@@ -42,7 +42,7 @@ const Contact = () => {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      link: "https://linkedin.com/in/snehkumar",
+      link: "https://www.linkedin.com/in/snehkumar2005/",
       color: "blue"
     }
   ];
@@ -116,7 +116,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/snehkumar"
+                href="https://www.linkedin.com/in/snehkumar2005/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center py-3 bg-blue-600 text-white rounded-lg"

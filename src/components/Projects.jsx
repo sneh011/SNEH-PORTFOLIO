@@ -1,8 +1,27 @@
 import React from 'react';
-import { Github, ExternalLink, Code, Cloud } from 'lucide-react';
+import { Github, ExternalLink, Code, Cloud, Briefcase } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Job Portal Web Application",
+      description: "A full-featured job portal where job seekers can browse and apply for jobs, and employers can post listings and manage applications.",
+      longDescription: "Built with a focus on clean UI and practical functionality, this portal streamlines the hiring process for both candidates and recruiters. It features role-based views, job listing management, and an application tracking system.",
+      techStack: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS"],
+      features: [
+        "Job seekers can browse, search, and filter job listings",
+        "Employers can post, edit, and delete job listings",
+        "Application submission and tracking system",
+        "Role-based views for candidates and recruiters",
+        "Responsive design across all screen sizes",
+        "Clean and intuitive user interface"
+      ],
+      icon: <Briefcase className="w-6 h-6" />,
+      color: "purple",
+      githubLink: "https://github.com/sneh011/JOB-KHOJO",
+      liveLink: "https://job-khojo-delta.vercel.app/",
+      tags: ["Full Stack", "React", "Responsive Design"]
+    },
     {
       title: "Weather Web Application",
       description: "A responsive weather application that provides real-time weather information based on user location or search queries. Features seamless integration with weather APIs and Google Maps for enhanced user experience.",
@@ -26,26 +45,26 @@ const Projects = () => {
 
   const upcomingProjects = [
     {
-      title: "DSA Visualizer",
-      description: "Interactive visualization tool for common data structures and algorithms",
-      techStack: ["React", "Tailwind CSS", "JavaScript"],
-      status: "Planning"
-    },
-    {
-      title: "Portfolio Dashboard",
-      description: "Personal coding statistics dashboard using LeetCode and GitHub APIs",
-      techStack: ["React", "Chart.js", "REST APIs"],
+      title: "Audio to ISL Conversion System",
+      description: "A system that converts spoken audio into Indian Sign Language (ISL) gestures, bridging communication between hearing and hearing-impaired communities.",
+      techStack: ["Python", "React", "Machine Learning", "NLP"],
       status: "In Progress"
     }
   ];
 
-  const getColorClasses = (color) => {
+const getColorClasses = (color) => {
     const colors = {
       blue: {
         gradient: "from-blue-600 to-blue-400",
         bg: "bg-blue-100 dark:bg-blue-900/20",
         text: "text-blue-700 dark:text-blue-300",
         border: "border-blue-400 dark:border-blue-600"
+      },
+      purple: {
+        gradient: "from-purple-600 to-purple-400",
+        bg: "bg-purple-100 dark:bg-purple-900/20",
+        text: "text-purple-700 dark:text-purple-300",
+        border: "border-purple-400 dark:border-purple-600"
       }
     };
     return colors[color] || colors.blue;
@@ -164,28 +183,19 @@ const Projects = () => {
         </div>
 
         {/* Upcoming */}
-        <div>
-          <h3 className="text-2xl font-bold mb-6 text-center">
-            Upcoming Projects
-          </h3>
+        <div className="mt-12">
+          <h3 className="text-2xl font-bold mb-6 text-center">Upcoming Projects</h3>
           <div className="grid md:grid-cols-2 gap-6">
             {upcomingProjects.map((project, index) => (
-              <div
-                key={index}
-                className="bg-white dark:bg-gray-900 rounded-xl p-6 border-2 border-dashed"
-              >
+              <div key={index} className="bg-white dark:bg-gray-900 rounded-xl p-6 border-2 border-dashed border-gray-300 dark:border-gray-700">
                 <div className="flex justify-between mb-3">
-                  <h4 className="font-bold">{project.title}</h4>
-                  <span className="px-3 py-1 bg-purple-100 rounded-full text-xs">
-                    {project.status}
-                  </span>
+                  <h4 className="font-bold text-gray-900 dark:text-white">{project.title}</h4>
+                  <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full text-xs">{project.status}</span>
                 </div>
-                <p className="text-sm mb-4">{project.description}</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.techStack.map((tech, i) => (
-                    <span key={i} className="px-2 py-1 bg-gray-100 rounded text-xs">
-                      {tech}
-                    </span>
+                    <span key={i} className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-xs">{tech}</span>
                   ))}
                 </div>
               </div>
